@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: alliedmodders/s2sdk
-          ref: cs2
+          ref: refs/pull/128/head
           path: s2sdk
 
       - name: Checkout HL2SDK Manifests
